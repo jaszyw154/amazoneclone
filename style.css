@@ -1,0 +1,225 @@
+*{
+    margin:0 ;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height:65px ;
+    display: flex;
+    background:#100f11 ;
+    color :white ;
+    justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+.navlog{
+height:50px ;
+width: 100px;
+
+}
+
+.log{
+    background-image:url("logo.jpg");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+border: 2px solid transparent ;
+}
+
+.border:hover{
+border:2 px solid white ;
+}
+
+.add-one {
+    color: white;
+ font-size: 0.85rem;
+ margin-left:15px ;
+}
+
+.add-two{
+color:white;
+font-size:1rem ;
+margin-left:3px;
+}
+
+.add-icon{
+    display:flex;
+align-items: center;
+}
+
+.nav-searchbar{
+     display:flex ;
+     background-color: pink;
+     width:620px ;
+     height:40px ;
+     border-radius: 3px ;
+     -webkit-border-radius: 3px ;
+     -moz-border-radius: 3px ;
+     -ms-border-radius: 3px ;
+     -o-border-radius: 3px ;
+     justify-content: space-evenly;
+}
+
+.nav-searchbar:hover{
+border:2px solid orange ;
+}
+
+
+.search-select{
+width: 60x ;
+text-align: center ;
+border-top-left-radius: 4px ;
+border-bottom-left-radius:4px ;
+
+}
+.search-in{
+width: 100%;
+font-size: 1rem ;
+border: none ;
+
+}
+.search-icon{
+width:45px ;
+align-content:center ;
+background-color: rgba(0, 128, 53, 0.5);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px ;
+color:#100f11 ;
+}
+
+span{
+font-size:0.7 rem ;
+font-weight: 700px ;
+
+
+}
+.nav-sec{
+    font-size: 0.85 rem ;
+    font-weight: 700px ;
+}
+.cart i {
+    font-size: 35px ;
+}
+.navaddress:hover{
+    border: 2px solid orange ;
+}
+.signin:hover{
+border: 2px solid orange ;
+}
+.retunorder:hover{
+ border: 2px solid orange ;
+}
+.cart:hover{
+border: 2px solid orange ;
+}
+
+.panel{
+    height:35px ;
+ display:flex ;
+ gap:20px ;
+ align-items: center ;
+ background-color: darkorange;
+
+}
+.size{
+font-size: 15px ;
+}
+.all{
+    font-size: 20px;
+}
+
+.all:hover{
+border:2px  solid rgba(0, 128, 53, 0.5);
+}
+
+.cust:hover{
+    border:2px solid rgba(0, 128, 53, 0.5) ;
+}
+.hovering:hover{
+border:2px solid rgba(0, 128, 53, 0.5) ;
+}
+
+.fashion-section{
+    background-image:url(music.jpg);
+height:750px ;
+background-size: cover ;
+justify-content: center;
+align-items: flex-end;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: rgb(223, 187, 144);
+}
+.box{
+    margin-top: 20px ;
+
+    /*border:2px solid black ;*/
+ height:400px ;
+ width: 23% ;
+ background-color: rgb(233, 247, 252);
+ padding: 20px , 0px , 15px ,;
+ margin-bottom: 20px ;
+
+}
+
+.box-img{
+height: 350px ;
+background-size: cover ;
+
+
+}
+
+.box-content{
+margin-left: 1rem ;
+margin-right:1rem ;
+}
+
+.second-shop{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: pink;
+}
+.shop{
+ text-underline-position: under;
+ color: rgb(137, 72, 228);
+
+}
+.shop:hover{
+    color: rgb(72, 189, 228);
+}
+
+.foot-panel{
+background-color: #37475a;
+color:white ;
+height:50px;
+display: flex;
+justify-content: center ;
+align-items: center;
+font-size: 1rem ;
+}
+
+
+.foot-panel2{
+    padding-inline-start: 10px;
+    background-color:  #222f3d ;
+    color: aliceblue;
+  height: 400px;
+  display: flex;
+justify-content: space-evenly ;
+
+}
+
+ul a {
+     margin-top: 20px;
+    display: block;
+    font-size: 0.85 rem;
+
+}
